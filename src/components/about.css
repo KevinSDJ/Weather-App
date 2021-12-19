@@ -1,0 +1,26 @@
+.aboutcont{
+    margin-top: calc(1em + 2vh);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.aboutD{
+    
+    border: 1px solid white;
+    padding: calc(1em + 1vw);
+}
+
+.aboutT{
+    font-size: calc(1.5em + 1vw);
+    color:white;
+}
+.aboutSub{
+    font-size: calc(0.5em + 1vw);
+    font-weight: 200;
+    
+}
+.pharag{
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.863);
+    font-size: calc(0.3em + 1vw);
+}

@@ -1,0 +1,59 @@
+.L_Card{
+    display: flex;
+    margin-top: calc(0.5em + 1vh);
+    justify-content: center;
+    box-sizing: border-box;
+}
+.L_CardCont{
+    width: 40%;
+    padding: calc(1em + 1vw);
+    box-sizing: border-box;
+   
+    box-shadow: inset -5px -4px 10px rgba(255, 255, 255,0.4),
+     inset 4px 4px 10px rgba(0, 0, 0,0.3)
+    ;
+    border-radius: 1em;
+}
+
+.L_SubSection1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(0.2em + 1vw);
+    text-align: left;
+    color: white;
+}
+.weat_sect{
+    text-align: center;
+}
+.L_title{
+    font-size:calc(1em + 2vw);
+    font-family:Roboto;  
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 300;
+    
+}
+.L_Section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.L_feels_like{
+    font-size:calc(2em + 2vw);
+    font-family: Roboto;
+    font-weight: 200;
+}
+.L_dt{
+    font-size:calc(0.5em + 1vw);
+}
+.subt_dt{
+    font-size: calc(0.2em + 1vw);
+    font-weight: 800;
+    color:rgba(255, 255, 255, 0.747);
+    align-items: center;
+}
+.icon_wind_direct{
+}

@@ -1,0 +1,45 @@
+.ciudad{
+  margin-top: calc(1em + 1vh);
+}
+.container{
+    
+    width: 50%;
+}
+.inf_sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto;
+}
+.inf_sec2{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sec1_temp{
+    text-align: left;
+    color: white;
+}
+.sec1_dt_temp{
+    font-size: calc(2em + 2vw);
+    font-weight: 200;
+}
+.sec1_weather{
+    font-size: calc(0.2em + 1vw);
+}
+.c_inf_dt{
+    font-size: calc(0.2em + 1vw);
+}
+.subt_dtls_dt{
+    font-size: calc(0.2em + 1vw);
+    font-weight: 800;
+    color: white;
+}
+.inf_name_citi{
+    font-size: calc(1em + 2vw);
+    font-family: Roboto;
+    font-weight: 300;
+}
+
