@@ -47,4 +47,7 @@
   .navbar-brand {
     display: none;
   }
+  .link{
+    font-size: 18px;
+  }
 }
