@@ -19,7 +19,7 @@ export default function LocationWeather() {
                 }
             })
             const {latitude,longitude}= searchLocation
-            fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_API_KEY}&units=metric`)
+            fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${process.env.REACT_APP_API_KEY}&units=metric`)
             .then(re=>re.json())
             .then(res=>{
                 updateL(res)
