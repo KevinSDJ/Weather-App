@@ -57,7 +57,7 @@
 
 @media screen  and (max-width:638px) {
     .L_CardCont{
-        width: 70%;
+        width: 80%;
     }
     .L_SubSection1{
         font-size: calc(0.5em + 1vw);
