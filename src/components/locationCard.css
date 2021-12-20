@@ -1,6 +1,6 @@
 .L_Card{
     display: flex;
-    margin-top: calc(0.5em + 1vh);
+    margin-top: calc(1em + 1vh);
     justify-content: center;
     box-sizing: border-box;
 }
@@ -8,7 +8,6 @@
     width: 40%;
     padding: calc(1em + 1vw);
     box-sizing: border-box;
-   
     box-shadow: inset -5px -4px 10px rgba(255, 255, 255,0.4),
      inset 4px 4px 10px rgba(0, 0, 0,0.3)
     ;
@@ -58,6 +57,19 @@
 
 @media screen  and (max-width:638px) {
     .L_CardCont{
-        width: 60%;
+        width: 70%;
+    }
+    .L_SubSection1{
+        font-size: calc(0.5em + 1vw);
+    }
+    .L_feels_like{
+        font-size:calc(2.5em + 2vw);
+    }
+    .subt_dt{
+        font-size: calc(0.6em + 1vw);
+       
+    }
+    .L_dt{
+        font-size:calc(0.6em + 1vw);
     }
   }
