@@ -10,10 +10,10 @@ function Nav({ onSearch }) {
     <div className="nav_content">
       <nav className="navbar navbar-dark fond" >
         <Link to='/' className="link">
+          <img id="logoHenry" src={Logo} width="30" height="30" className="d-inline-block align-top" alt="" />
           <span className="navbar-brand title">
-            <img id="logoHenry" src={Logo} width="30" height="30" className="d-inline-block align-top" alt="" />
             Henry - Weather App
-          </span>
+          </span> 
         </Link>
         <Link to='/about' className="link" >
           <span className="about">About</span>

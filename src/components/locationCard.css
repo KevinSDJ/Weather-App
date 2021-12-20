@@ -55,5 +55,9 @@
     color:rgba(255, 255, 255, 0.747);
     align-items: center;
 }
-.icon_wind_direct{
-}
+
+@media screen  and (max-width:638px) {
+    .L_CardCont{
+        width: 60%;
+    }
+  }
