@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import 'normalize.css';
 import Nav from '../components/Nav.jsx';
 import Cards from '../components/Cards.jsx';
 import { Route, Switch } from 'react-router-dom';
@@ -8,6 +9,7 @@ import About from '../components/About.jsx';
 import Footer from '../components/Footer.jsx';
 import LocationWeather from './Location';
 import dotenv from 'dotenv';
+
 dotenv.config()
 
 function App() {
